@@ -4,6 +4,7 @@ This is a draft for the ddl website.
 
 Includes the following:
 ```
+.
 ├── 404.html
 ├── Gemfile
 ├── Gemfile.lock
@@ -14,6 +15,7 @@ Includes the following:
 │   └── front.html
 ├── _includes
 │   ├── intro.html
+│   ├── navbar-fade.js
 │   └── news
 │       └── news_template.html
 ├── _layouts
@@ -25,6 +27,7 @@ Includes the following:
 │   └── main.css
 ├── _site
 │   ├── 404.html
+│   ├── README.md
 │   ├── about
 │   │   └── index.html
 │   ├── assets
@@ -33,6 +36,7 @@ Includes the following:
 │   ├── css
 │   │   ├── main.css
 │   │   └── minima-social-icons.svg
+│   ├── database.html
 │   ├── dev
 │   │   ├── data_analysis2_chantal_v2.Rmd
 │   │   ├── data_analysis2_chantal_v2.html
@@ -40,6 +44,10 @@ Includes the following:
 │   ├── dev.html
 │   ├── feed.xml
 │   ├── fonts
+│   │   ├── Codystar
+│   │   │   ├── Codystar-Light.ttf
+│   │   │   ├── Codystar-Regular.ttf
+│   │   │   └── OFL.txt
 │   │   └── Crimson_Text
 │   │       ├── CrimsonText-Bold.ttf
 │   │       ├── CrimsonText-BoldItalic.ttf
@@ -50,22 +58,30 @@ Includes the following:
 │   │       └── OFL.txt
 │   ├── index.html
 │   ├── js
+│   │   ├── jquery-3.3.1.js
 │   │   └── navbar-fade.js
-│   └── news
-│       └── 2018
-│           └── 06
-│               └── 04
-│                   └── welcome-to-jekyll.html
+│   ├── news
+│   │   └── 2018
+│   │       └── 06
+│   │           └── 04
+│   │               └── welcome-to-jekyll.html
+│   └── repo.html
 ├── about.md
 ├── css
 │   ├── main.css
 │   └── minima-social-icons.svg
+├── database
+├── database.html
 ├── dev
 │   ├── data_analysis2_chantal_v2.Rmd
 │   ├── data_analysis2_chantal_v2.html
 │   └── lala.html
 ├── dev.html
 ├── fonts
+│   ├── Codystar
+│   │   ├── Codystar-Light.ttf
+│   │   ├── Codystar-Regular.ttf
+│   │   └── OFL.txt
 │   └── Crimson_Text
 │       ├── CrimsonText-Bold.ttf
 │       ├── CrimsonText-BoldItalic.ttf
@@ -75,6 +91,9 @@ Includes the following:
 │       ├── CrimsonText-SemiBoldItalic.ttf
 │       └── OFL.txt
 ├── index.html
-└── js
-    └── navbar-fade.js
+├── js
+│   ├── jquery-3.3.1.js
+│   └── navbar-fade.js
+├── repo
+└── repo.html
 ```
