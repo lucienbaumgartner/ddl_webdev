@@ -1,15 +1,28 @@
 ---
-layout: default
+layout: front
 ---
 
 <body>
-<div class="container">
+  <div class="container">
+    <h1 class='front-title'>Digital Democracy Lab</h1>
+    <div class='navbar-fixed'>
+      <ul>
+        <li "float:left"><a href="# /">Home</a></li>
+        <li><a href="# /">Dev</a></li>
+        <li><a href="# /">Repo</a></li>
+        <li><a href="# /">Database</a></li>
+      <ul>
+    </div>
+  </div>
+  <header>
+
+<div class="container" style="margin-bottom:50px">
   {% include intro.html %}
 </div>
 
 <div class="container">
   <h1>News</h1>
-  <div class="blog-index">
+  <div class="blog-index" style="margin-bottom:50px">
     {% assign post = site.posts.first %}
     {% assign content = post.content %}
     {% include news/news_template.html %}
