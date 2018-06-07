@@ -18,7 +18,7 @@
 
 <link rel="stylesheet" href="/css/main.css">
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" />
-<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
 <script type="text/javascript">
   (function ($) {
@@ -32,7 +32,7 @@
         $(window).scroll(function () {
 
                  // set distance user needs to scroll before we start fadeIn
-            if ($(this).scrollTop() > 300) {
+            if ($(this).scrollTop() > 200) {
                 $('#menu').fadeIn();
             } else {
                 $('#menu').fadeOut();
@@ -52,12 +52,12 @@
 
 <div class='fixed-container'>
   <div class='nav-site'>
-  <div class='nav-title'><a href='# /'>DDL</a></div>
+  <div class='nav-title'><a href='/'>DDL</a></div>
   <ul>
-    <li><a href="# /">Dev</a></li>
-    <li><a href="# /">Repo</a></li>
-    <li><a href="# /">Database</a></li>
-    <li><a href="# /">About</a></li>
+    <li><a href="/dev">Dev</a></li>
+    <li><a href="/repo">Repo</a></li>
+    <li><a href="/database">Database</a></li>
+    <li><a href="/about">About</a></li>
   <ul>
   </div>
 </div>
@@ -74,9 +74,10 @@
     <div class='navbar-fixed'>
       <ul>
         <li "float:left"><a href="# /">Home</a></li>
-        <li><a href="# /">Dev</a></li>
-        <li><a href="# /">Repo</a></li>
-        <li><a href="# /">Database</a></li>
+        <li><a href="/dev">Dev</a></li>
+        <li><a href="/repo">Repo</a></li>
+        <li><a href="/database">Database</a></li>
+        <li><a href="/about">About</a></li>
       <ul>
     </div>
   </div>
